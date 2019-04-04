@@ -1,0 +1,14 @@
+{
+  "name": "tinyhelp/tinyhelp-sample",
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/tinyhelp/tinyhelp"
+    }
+  ],
+  "require" : {
+    "tinyhelp/tinyhelp": "dev-master"
+  }
+}
