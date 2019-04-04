@@ -8,6 +8,7 @@
 */
 
 add_action( 'plugins_loaded', 'tinyhelp_sample' );
+
 function tinyhelp_sample() {
 	$args = array(
 		'slug'        => 'tinycoffee',
@@ -70,6 +71,7 @@ function tinyhelp_sample() {
 			),
 		),
 	);
-	require_once( __DIR__ . '/vendor/autoload.php' );
+
+	require_once( __DIR__ . '/vendor/tinyhelp/tinyhelp/class-tinyhelp.php' );
 	$th = new TinyHelp( $args );
 }
